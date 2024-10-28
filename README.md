@@ -1,5 +1,3 @@
-# Hello-World-Extension
+# Stretching-Exercises-Extension
 
 a practice for making google extensions
-paoiewjfpaoisjdf!!!!!
-asdfasdfff
