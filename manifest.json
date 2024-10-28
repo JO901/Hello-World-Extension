@@ -1,10 +1,13 @@
 {
-    "manifest_version": 3,
-    "name": "Hello Extensions of the World!",
-    "description": "Base Level Extension",
-    "version": "1.0",
-    "action": {
-      "default_popup": "stretch.html",
-      "default_icon": "/assets/wave.png"
-    }
+  "manifest_version": 3,
+  "name": "Stretching Exercises Extesnion",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "permissions": [
+    "alarms"
+  ],
+  "action": {
+    "default_popup": "stretch.html",
+    "default_icon": "/assets/wave.png"
   }
+}
