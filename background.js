@@ -8,7 +8,7 @@ chrome.alarms.onAlarm.addListener((alarm) => {
   console.log('Alarm working?');
   if (alarm.name === 'ALARM_NAME') {
     console.log('The alarm was named correctly');
-    chrome.notifications.create('NOTFICATION_ID', {
+    let id = chrome.notifications.create('NOTFICATION_ID', {
       // name the notification
       type: 'basic', // other options = image, list, progress
       iconUrl: '/assets/wave.png', // path to icon that should be shown in notification/ relative to root of extension
@@ -25,5 +25,9 @@ chrome.alarms.onAlarm.addListener((alarm) => {
       ],
       // silent: false, // that’s the default setting so it should make a sound
     });
+
+    chrome.notifications.clear(
+      notificationId: 'NOTFICATION_ID',
+    );
   }
 });
