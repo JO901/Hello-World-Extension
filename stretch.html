@@ -8,16 +8,19 @@
 <body>
   <h1>Stretching Exercises</h1>
 
-  <img id="picture"
-    src="https://plus.unsplash.com/premium_photo-1663050712656-f240e3cdd7d3?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RyZXRjaGluZ3xlbnwwfHwwfHx8MA%3D%3D">
+  <img id="picture" src="https://cdn-icons-png.flaticon.com/512/6028/6028784.png">
   <p>
   <div class="sec"></div>
   </p>
-  <button>Start Stretching</button>
   <!-- user imputs a how many rounds -->
+  <input type="text" id="totalTime" placeholder="How long? (minutes)" value="1">
+  <input type="text" id="rounds" placeholder="How many stretches?" value="3">
+  <button>Start Stretching</button>
+
   <p></p>
 
   <script src="main.js"> </script>
 </body>
 
 </html>
+<!--if user wants 5 loops and 1 minute long break -- we take 1 minute; subtract cooldowns (which are always 5sec) x 5 which will be 25; that equals 35; 35 / 5 = 7sec per stretch-->
