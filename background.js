@@ -12,13 +12,13 @@ chrome.alarms.onAlarm.addListener((alarm) => {
     chrome.notifications.create('NOTIFICATION_ID', {
       // name the notification
       type: 'basic', // other options = image, list, progress
-      iconUrl: '/assets/wave.png', // path to icon that should be shown in notification/ relative to root of extension
-      title: 'notification title', // title of notification
-      message: 'notification message', // message shown in notification
+      iconUrl: '/assets/stretching-exercises.png', // path to icon that should be shown in notification/ relative to root of extension
+      title: 'Time to Stretch', // title of notification
+      message: 'Head on over to Stretch Goals!', // message shown in notification
       priority: 2, // range from -2 to 2 in priority, we want it to be highest priority
       buttons: [
         {
-          title: 'Start stretching',
+          title: 'Okay, I will!',
         },
         {
           title: 'Skip this break',

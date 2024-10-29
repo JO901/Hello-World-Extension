@@ -13,14 +13,19 @@
   <div class="sec"></div>
   </p>
   <!-- user imputs a how many rounds -->
-  <input type="text" id="totalTime" placeholder="How long? (minutes)" value="5">
-  <input type="text" id="rounds" placeholder="How many stretches?" value="5">
-  <button>Start Stretching</button>
+   <label id="totalLabel" for="totalTime">How long? (minutes)</label>
+  <input type="text" id="totalTime" value="1"><br>
+  <label id='roundsLabel' for="rounds">How many stretches? (up to 10)</label>
+  <input type="text" id="rounds" value="2"><br><br>
+  <button><strong>Start Stretching</strong></button>
 
   <p></p>
+  <a id="attribute" href="https://www.flaticon.com/free-icons/gym" title="gym icons">Gym icon created by Freepik - Flaticon</a>
 
   <script src="main.js"> </script>
 </body>
 
 </html>
 <!--if user wants 5 loops and 1 minute long break -- we take 1 minute; subtract cooldowns (which are always 5sec) x 5 which will be 25; that equals 35; 35 / 5 = 7sec per stretch-->
+
+<!-- time = loops * 5  -->

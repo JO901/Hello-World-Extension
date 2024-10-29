@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Stretching Exercises Extesnion",
-  "description": "Base Level Extension",
+  "name": "Stretch Goals",
+  "description": "an extension for those couch potatoes.",
   "version": "1.0",
   "permissions": ["alarms", "notifications", "storage"],
   "background": {
@@ -9,6 +9,6 @@
   },
   "action": {
     "default_popup": "stretch.html",
-    "default_icon": "/assets/wave.png"
+    "default_icon": "/assets/stretching-exercises.png"
   }
 }
